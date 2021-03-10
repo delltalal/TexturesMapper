@@ -14,3 +14,5 @@ Paste it in the command prompt and you should have your textures mapped in a .ya
 Copy the .yaml file and paste it in the PCSX2/txtconfig folder
 Make sure that texture filtering is set to Bilinear (Forced) in PCSX2 and make sure that Replace Textures option is selected there.
 Enjoy! :D
+
+Author: Talal
