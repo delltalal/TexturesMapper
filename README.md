@@ -1,6 +1,9 @@
 # TexturesMapper 
 The purpose for this app is to map the CRC32 textures to their addresses and generate the yaml file for Topaz Reality's PCSX2 texture replacements plugin.
 
+Prerequisite:
+Make sure that you have Java installed
+
 How to use:
 Click on the run.bat file 
 Enter the CRC32 title of the game that you plan on mapping textures to, in this example I want to map Dark Cloud textures and I know that when I dumped textures from the plugin they were in a folder named A5C05C78 so, I'll enter A5C05C78 in the command prompt.
