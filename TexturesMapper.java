@@ -50,7 +50,7 @@ public class TexturesMapper {
             System.out.println("ProcessTEX: ");
             
             for (int i = 0; i < directories.length; i++) {
-                System.out.println("  // " + directories[i]);
+                System.out.println("  # " + directories[i]);
                 String Subs = sa + "/" + directories[i];
                 
             
@@ -73,7 +73,7 @@ public class TexturesMapper {
             }
 
             }
-            System.out.println("  // Root");
+            System.out.println("  # Root");
             String[] fileNamesog
                     = Files.list(Paths.get(dir)).filter(
                             Files::isRegularFile).map(
